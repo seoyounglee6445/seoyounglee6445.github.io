@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Microbiome-First-install Qiime2"
+title:  "(1)Microbiome-install Qiime2"
 date:   2021-0-14 19:45:31 +0530
 categories: micro
 ---
