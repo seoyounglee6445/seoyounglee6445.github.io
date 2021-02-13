@@ -72,6 +72,4 @@ conda activate qiime2-2020.11
 
 https://docs.qiime2.org/2020.11/tutorials/moving-pictures/
 
-1 <br>
-2
 
