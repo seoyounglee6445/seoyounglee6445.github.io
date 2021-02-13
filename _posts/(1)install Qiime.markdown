@@ -5,7 +5,8 @@ date:   2021-02-14 19:45:31 +0530
 categories: micro
 author: "sy"
 ---
-L
+
+
 You need Anaconda / Python before install Qiime2 
 install python 
 Anaconda : https://www.anaconda.com/products/individual#download-section   (Window / mac / linux ) 
