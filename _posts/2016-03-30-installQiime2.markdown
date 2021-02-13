@@ -16,19 +16,19 @@ command line : bash Anaconda3-2019.03-Linux-x86_64.sh <br>
 command line : source ~/.bashrc <br>
 
 
--------------------- Install Qiime2 -------------------- <br>
+--------- Install Qiime2 --------- <br>
 
 reference : https://qiime2.org/ <br>
 install qiime2 <br>
-linux for 
-wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-linux-conda.yml
-conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-linux-conda.yml
-or 
-mac for 
-wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-osx-conda.yml
-conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-osx-conda.yml
-conda activate qiime2-2020.11
+linux for  <br>
+wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-linux-conda.yml <br>
+conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-linux-conda.yml <br>
+or  <br>
+mac for  <br>
+wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-osx-conda.yml <br>
+conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-osx-conda.yml <br>
+conda activate qiime2-2020.11 <br>
 
----------------------------------------------------------- Qiime2 tutorial ----------------------------------------------------------------
+--------- Qiime2 tutorial ---------<br>
 
-https://docs.qiime2.org/2020.11/tutorials/moving-pictures/
+https://docs.qiime2.org/2020.11/tutorials/moving-pictures/ <br>
