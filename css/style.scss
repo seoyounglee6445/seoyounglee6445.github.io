@@ -14,7 +14,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 // Width of the content area
-$content-width:    900px;
+$content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -250,7 +250,7 @@ pre {
 
 .post {
   font-family: "Source Sans Pro";
-  font-size: 13px;
+  font-size: 30px;
   font-weight: 300;
   padding-top: 0;
 }
@@ -518,7 +518,7 @@ pre {
   font-family: "PT Sans";
   font-weight: 900;
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 .post-content {
