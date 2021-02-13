@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Microbiome
+title: MICROBIOME
 permalink: /micro/
 category: "micro"
 
