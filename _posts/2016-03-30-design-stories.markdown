@@ -2,13 +2,32 @@
 layout: post
 title:  "Design Stories : Gravity"
 date:   2016-03-30 19:45:31 +0530
-categories: ["design", "science", "life"]
-author: "Hemang Kumar"
+categories: micro
+author: "sy"
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+L
+You need Anaconda / Python before install Qiime2 
+install python 
+Anaconda : https://www.anaconda.com/products/individual#download-section   (Window / mac / linux ) 
+install process ( reference site :https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart )
+command line : sha256sum Anaconda3-2019.03-Linux-x86_64.sh
+command line : bash Anaconda3-2019.03-Linux-x86_64.sh
+command line : source ~/.bashrc
 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+----------------------------------------------------------Install Qiime2 ----------------------------------------------------------------
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+reference : https://qiime2.org/
+install qiime2
+linux for 
+wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-linux-conda.yml
+conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-linux-conda.yml
+or 
+mac for 
+wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-osx-conda.yml
+conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-osx-conda.yml
+conda activate qiime2-2020.11
+
+---------------------------------------------------------- Qiime2 tutorial ----------------------------------------------------------------
+
+https://docs.qiime2.org/2020.11/tutorials/moving-pictures/
