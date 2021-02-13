@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Design Stories : Gravity"
+title:  "install Qiime2"
 date:  2021-02-24
 categories: micro
 author: "sy"
