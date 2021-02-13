@@ -1,29 +1,40 @@
 ---
 layout: post
-title:  "Welcome to Gravity!"
-date:   2016-03-30 19:45:31 +0530
-categories: etc
+title:  "Microbiome-First-install Qiime2"
+date:   2021-0-14 19:45:31 +0530
+categories: micro
 ---
-Gravity is an unopinionated theme for Jekyll, the awesome static site generator.
 
-Some General Instructions for Jekyll
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You need Anaconda / Python before install Qiime2 
+install python 
+Anaconda : https://www.anaconda.com/products/individual#download-section   (Window / mac / linux ) 
+install process ( reference site :https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart )
+command line : sha256sum Anaconda3-2019.03-Linux-x86_64.sh
+command line : bash Anaconda3-2019.03-Linux-x86_64.sh
+command line : source ~/.bashrc
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+----------------------------------------------------------Install Qiime2 ----------------------------------------------------------------
 
-Jekyll also offers powerful support for code snippets:
+reference : https://qiime2.org/
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+install qiime2
+linux for 
+wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-linux-conda.yml
+conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-linux-conda.yml
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+or 
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+mac for 
+wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-osx-conda.yml
+conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-osx-conda.yml
+
+conda activate qiime2-2020.11
+
+---------------------------------------------------------- Qiime2 tutorial ----------------------------------------------------------------
+
+https://docs.qiime2.org/2020.11/tutorials/moving-pictures/
+
+
+
+
