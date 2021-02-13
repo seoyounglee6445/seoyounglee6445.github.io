@@ -14,7 +14,10 @@ install process ( reference site :https://www.digitalocean.com/community/tutoria
 command line : sha256sum Anaconda3-2019.03-Linux-x86_64.sh
 command line : bash Anaconda3-2019.03-Linux-x86_64.sh
 command line : source ~/.bashrc
+
+
 ----------------------------------------------------------Install Qiime2 ----------------------------------------------------------------
+
 reference : https://qiime2.org/
 install qiime2
 linux for 
@@ -25,5 +28,8 @@ mac for
 wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-osx-conda.yml
 conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-osx-conda.yml
 conda activate qiime2-2020.11
+
 ---------------------------------------------------------- Qiime2 tutorial ----------------------------------------------------------------
+
 https://docs.qiime2.org/2020.11/tutorials/moving-pictures/
+
