@@ -362,7 +362,7 @@ pre {
   letter-spacing: 2px;
   text-indent: 2px;
   font-family: "PT Sans";
-  font-size: 12px;
+  font-size: 20px;
   text-align:center;
 }
 .page-tagline {
@@ -518,7 +518,7 @@ pre {
   font-family: "PT Sans";
   font-weight: 900;
   @include media-query($on-laptop) {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 .post-content {
