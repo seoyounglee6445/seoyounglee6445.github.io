@@ -512,13 +512,13 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 55px;
+  font-size: 50px;
 
   text-align: center;
   font-family: "PT Sans";
   font-weight: 900;
   @include media-query($on-laptop) {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .post-content {
