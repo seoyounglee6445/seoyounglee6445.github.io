@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Design Stories : Gravity"
-date:  "%b %-d, %Y"
+date:  2021-02-24
 categories: micro
 author: "sy"
 ---
