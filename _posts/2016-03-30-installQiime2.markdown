@@ -7,10 +7,10 @@ author: "sy"
 ---
 
 
-You need Anaconda / Python before install Qiime2 
-install python 
-Anaconda : https://www.anaconda.com/products/individual#download-section   (Window / mac / linux ) 
-install process ( reference site :https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart )
+You need Anaconda / Python before install Qiime2    
+install python    
+Anaconda : https://www.anaconda.com/products/individual#download-section   (Window / mac / linux )    
+install process ( reference site :https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart )   
 command line : sha256sum Anaconda3-2019.03-Linux-x86_64.sh
 command line : bash Anaconda3-2019.03-Linux-x86_64.sh
 command line : source ~/.bashrc
