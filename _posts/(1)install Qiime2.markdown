@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "install Qiime2"
-date:  2021-02-24
+date:  2021-02-14 19:45:31 +0530
 categories: micro
 author: "sy"
 ---
