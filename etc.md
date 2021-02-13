@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: etc
+title: ETC
 permalink: /etc/
 category: "etc"
 ---
