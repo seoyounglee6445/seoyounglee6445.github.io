@@ -203,8 +203,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 0.5));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 0.5));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -250,8 +250,8 @@ pre {
 
 .post {
   font-family: "Source Sans Pro";
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 200;
   padding-top: 0;
 }
 .home{
