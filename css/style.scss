@@ -203,8 +203,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 0.5));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 0.5));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -298,7 +298,7 @@ pre {
   text-indent: 2px;
 }
 .postContent {
-    font-size: 15px;
+    font-size: 10px;
   padding-top: 3.5em;
   text-align: center;
 }
@@ -513,7 +513,7 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
+  font-size: 50px;
 
   text-align: center;
   font-family: "PT Sans";
